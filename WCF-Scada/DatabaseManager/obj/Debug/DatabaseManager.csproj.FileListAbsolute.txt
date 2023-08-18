@@ -1,0 +1,13 @@
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\bin\Debug\DatabaseManager.exe.config
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\bin\Debug\DatabaseManager.exe
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\bin\Debug\DatabaseManager.pdb
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\bin\Debug\EntityFramework.dll
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\bin\Debug\EntityFramework.xml
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\obj\Debug\DatabaseManager.csproj.AssemblyReference.cache
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\obj\Debug\DatabaseManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\obj\Debug\DatabaseManager.csproj.CoreCompileInputs.cache
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\obj\Debug\DatabaseManager.csproj.CopyComplete
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\obj\Debug\DatabaseManager.exe
+C:\Users\Anastasija\source\repos\WCF-Scada\DatabaseManager\obj\Debug\DatabaseManager.pdb
