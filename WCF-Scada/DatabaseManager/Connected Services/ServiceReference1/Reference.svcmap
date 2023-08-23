@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="a06f135d-8666-4afa-b5b0-8067d9fa32aa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="5a8365bf-c0c6-40af-81ef-f0036dee92b7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,11 @@
     <MetadataSource Address="http://localhost:49959/DBManagerService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="DBManagerService1.xsd" MetadataType="Schema" ID="0b48276d-9e96-48c3-ae28-4bc43936c74a" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?xsd=xsd1" />
-    <MetadataFile FileName="DBManagerService.wsdl" MetadataType="Wsdl" ID="d25fcb1b-1475-4173-b3cf-d5b30c3100b1" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?wsdl" />
-    <MetadataFile FileName="DBManagerService.xsd" MetadataType="Schema" ID="0b5b37b5-c4e4-4460-9b70-8261ba633d9b" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?xsd=xsd0" />
-    <MetadataFile FileName="DBManagerService.disco" MetadataType="Disco" ID="92da23fa-3de1-4474-8204-c7e61fc70e42" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?disco" />
+    <MetadataFile FileName="DBManagerService.xsd" MetadataType="Schema" ID="3dce33bd-47ba-4f46-af3c-c1ca6e2f39af" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DBManagerService.wsdl" MetadataType="Wsdl" ID="5a55ebbd-6886-430a-8f08-87a81b9158d3" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?wsdl" />
+    <MetadataFile FileName="DBManagerService1.xsd" MetadataType="Schema" ID="154860a3-9b3f-4816-9661-3041336351b9" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DBManagerService2.xsd" MetadataType="Schema" ID="524a77e8-5954-4d2f-80d9-a5133e4fa536" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DBManagerService.disco" MetadataType="Disco" ID="c3d88f51-a6a8-48ac-8ab9-8205fc92ecf3" SourceId="1" SourceUrl="http://localhost:49959/DBManagerService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

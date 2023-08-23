@@ -29,5 +29,10 @@ namespace WCF_Scada
         public bool AddTag(Tag tag, string token) {
             return false;
         }
+
+        public void LogOut(string token)
+        {
+            UserProcessing.LogOut(token);
+        }
     }
 }

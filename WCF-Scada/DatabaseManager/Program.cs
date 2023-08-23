@@ -9,31 +9,39 @@ namespace DatabaseManager
 {
     internal class Program
     {
-        private static string[] menuItems = { "Dodavanje taga", "Uklanjanje taga", "Registracije korisnika", "Upisivanje vrednosti",
-                                              "Prikaz trenutnih vrednosti", "Podešavanje skeniranja ulaznih tagova", "Dodavanje alarma", "Log out" };
+        private static string[] menuItems = { "Dodavanje taga", "Uklanjanje taga", "Registracija korisnika", "Upisivanje vrijednosti",
+                                      "Prikaz trenutnih vrijednosti", "Podešavanje skeniranja ulaznih tagova", "Dodavanje alarma", "Log out" };
 
         private static readonly string INPUT_ERROR_MSG = "Unos nije validan, pokušajte ponovo.";
         static DBManagerServiceClient serviceClient = new DBManagerServiceClient();
-
+        static bool loggedIn = false;
+        static string token = null;
         static void Main(string[] args)
         {
             while (true)
             {
-                Console.WriteLine("1. Prijavi se");
-                Console.WriteLine("2. Registruj se");
-                string choice = Console.ReadLine();
-
-                switch (choice)
+                if (!loggedIn)
                 {
-                    case "1":
-                        LogIn();
-                        break;
-                    case "2":
-                        Register();
-                        break;
-                    default:
-                        Console.WriteLine(INPUT_ERROR_MSG);
-                        break;
+                    Console.WriteLine("1. Prijavi se");
+                    Console.WriteLine("2. Registruj se");
+                    string choice = Console.ReadLine();
+
+                    switch (choice)
+                    {
+                        case "1":
+                            LogIn();
+                            break;
+                        case "2":
+                            Register();
+                            break;
+                        default:
+                            Console.WriteLine(INPUT_ERROR_MSG);
+                            break;
+                    }
+                }
+                else
+                {
+                    ShowMenu();
                 }
             }
         }
@@ -46,10 +54,11 @@ namespace DatabaseManager
             string password = Console.ReadLine();
 
             string result = serviceClient.LogIn(username, password);
-            if (result != "Login neuspjesan")
+            if (result != null)
             {
+                token = result; 
                 Console.WriteLine("Uspješna prijava!");
-                ShowMenu();
+                loggedIn = true;
             }
             else
             {
@@ -77,7 +86,7 @@ namespace DatabaseManager
 
         static void ShowMenu()
         {
-            while (true)
+            while (loggedIn)
             {
                 Console.WriteLine("\nIzaberite opciju:");
                 for (int i = 0; i < menuItems.Length; i++)
@@ -97,14 +106,25 @@ namespace DatabaseManager
                         break;
                     // ... Ostale opcije ...
                     case "8":
-                        // Log out
-                        Console.WriteLine("Odjavljeni ste.");
-                        return;
+                        LogOut();
+                        break;
                     default:
                         Console.WriteLine(INPUT_ERROR_MSG);
                         break;
                 }
             }
         }
+
+        static void LogOut()
+        {
+           
+            serviceClient.LogOut(token);  
+            Console.WriteLine("Odjavljeni ste.");
+            loggedIn = false;
+            token = null;
+             
+          
+        }
     }
-}
+
+  }

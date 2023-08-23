@@ -12,8 +12,8 @@ namespace WCF_Scada.models
         public Driver Driver { get; set; }
         public int ScanTime { get; set; }
         public bool OnScan { get; set; }
-        [DataMember] public double LowLimit { get; set; }
-        [DataMember] public double HighLimit { get; set; }
-        [DataMember] public string Units { get; set; }
+        public double LowLimit { get; set; }
+        public double HighLimit { get; set; }
+        public string Units { get; set; }
     }
 }

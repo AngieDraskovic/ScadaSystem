@@ -14,9 +14,7 @@ namespace WCF_Scada.Processing
 
         static readonly object tagsLock = new object();
         public static bool AddTag(Tag tag) {
-            if (currentValues.ContainsKey(tag.Id))
-                return false;
-
+            return false;
 
         }
     }
