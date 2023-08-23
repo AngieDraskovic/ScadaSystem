@@ -75,6 +75,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\TagContext.cs" />
     <Compile Include="Context\UserContext.cs" />
     <Compile Include="DBManagerService.svc.cs">
       <DependentUpon>DBManagerService.svc</DependentUpon>
@@ -89,6 +90,12 @@
       <DependentUpon>202308181910193_MigrationName.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="models\Alarm.cs" />
+    <Compile Include="models\AnalogInputTag.cs" />
+    <Compile Include="models\AnalogOutputTag.cs" />
+    <Compile Include="models\DigitalInputTag.cs" />
+    <Compile Include="models\DigitalOutputTag.cs" />
+    <Compile Include="models\Driver.cs" />
     <Compile Include="models\Tag.cs" />
     <Compile Include="models\User.cs" />
     <Compile Include="Processing\TagProcessing.cs" />

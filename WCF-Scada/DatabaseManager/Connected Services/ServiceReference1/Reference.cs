@@ -9,16 +9,95 @@
 //------------------------------------------------------------------------------
 
 namespace DatabaseManager.ServiceReference1 {
+    using System.Runtime.Serialization;
+    using System;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Tag", Namespace="http://schemas.datacontract.org/2004/07/WCF_Scada.models")]
+    [System.SerializableAttribute()]
+    public partial class Tag : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescriptionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string IOAddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string IdField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description {
+            get {
+                return this.DescriptionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescriptionField, value) != true)) {
+                    this.DescriptionField = value;
+                    this.RaisePropertyChanged("Description");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string IOAddress {
+            get {
+                return this.IOAddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.IOAddressField, value) != true)) {
+                    this.IOAddressField = value;
+                    this.RaisePropertyChanged("IOAddress");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.IdField, value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IDBManagerService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IDBManagerService", SessionMode=System.ServiceModel.SessionMode.Required)]
     public interface IDBManagerService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDBManagerService/RegisterUser", ReplyAction="http://tempuri.org/IDBManagerService/RegisterUserResponse")]
+        [System.ServiceModel.OperationContractAttribute(IsInitiating=false, Action="http://tempuri.org/IDBManagerService/RegisterUser", ReplyAction="http://tempuri.org/IDBManagerService/RegisterUserResponse")]
         bool RegisterUser(string username, string password);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDBManagerService/RegisterUser", ReplyAction="http://tempuri.org/IDBManagerService/RegisterUserResponse")]
+        [System.ServiceModel.OperationContractAttribute(IsInitiating=false, Action="http://tempuri.org/IDBManagerService/RegisterUser", ReplyAction="http://tempuri.org/IDBManagerService/RegisterUserResponse")]
         System.Threading.Tasks.Task<bool> RegisterUserAsync(string username, string password);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDBManagerService/LogIn", ReplyAction="http://tempuri.org/IDBManagerService/LogInResponse")]
@@ -26,6 +105,18 @@ namespace DatabaseManager.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDBManagerService/LogIn", ReplyAction="http://tempuri.org/IDBManagerService/LogInResponse")]
         System.Threading.Tasks.Task<string> LogInAsync(string username, string password);
+        
+        [System.ServiceModel.OperationContractAttribute(IsInitiating=false, Action="http://tempuri.org/IDBManagerService/AddTag", ReplyAction="http://tempuri.org/IDBManagerService/AddTagResponse")]
+        bool AddTag(DatabaseManager.ServiceReference1.Tag tag, string token);
+        
+        [System.ServiceModel.OperationContractAttribute(IsInitiating=false, Action="http://tempuri.org/IDBManagerService/AddTag", ReplyAction="http://tempuri.org/IDBManagerService/AddTagResponse")]
+        System.Threading.Tasks.Task<bool> AddTagAsync(DatabaseManager.ServiceReference1.Tag tag, string token);
+        
+        [System.ServiceModel.OperationContractAttribute(IsInitiating=false, Action="http://tempuri.org/IDBManagerService/LogOut", ReplyAction="http://tempuri.org/IDBManagerService/LogOutResponse")]
+        void LogOut(string token);
+        
+        [System.ServiceModel.OperationContractAttribute(IsInitiating=false, Action="http://tempuri.org/IDBManagerService/LogOut", ReplyAction="http://tempuri.org/IDBManagerService/LogOutResponse")]
+        System.Threading.Tasks.Task LogOutAsync(string token);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -69,6 +160,22 @@ namespace DatabaseManager.ServiceReference1 {
         
         public System.Threading.Tasks.Task<string> LogInAsync(string username, string password) {
             return base.Channel.LogInAsync(username, password);
+        }
+        
+        public bool AddTag(DatabaseManager.ServiceReference1.Tag tag, string token) {
+            return base.Channel.AddTag(tag, token);
+        }
+        
+        public System.Threading.Tasks.Task<bool> AddTagAsync(DatabaseManager.ServiceReference1.Tag tag, string token) {
+            return base.Channel.AddTagAsync(tag, token);
+        }
+        
+        public void LogOut(string token) {
+            base.Channel.LogOut(token);
+        }
+        
+        public System.Threading.Tasks.Task LogOutAsync(string token) {
+            return base.Channel.LogOutAsync(token);
         }
     }
 }
