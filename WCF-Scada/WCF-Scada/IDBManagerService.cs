@@ -19,8 +19,12 @@ namespace WCF_Scada
 
         [OperationContract(IsInitiating = false)]
         bool AddTag(Tag tag, string token);
-
         [OperationContract(IsInitiating = false)]
+        bool RemoveTag(string tagName, string token);
+
+
+        [OperationContract(IsInitiating = false, IsTerminating = true)]
         void LogOut(string token);
+
     }
 }

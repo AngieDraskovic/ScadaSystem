@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Web;
 
 namespace WCF_Scada.models
 {
-    public class AnalogOutputTag : Tag
+    [DataContract]
+    public class AnalogOutputTag : OutputTag
     {
-
-        public double InitialValue { get; set; }
-        public double LowLimit { get; set; }
-        public double HighLimit { get; set; }
-        public string Units { get; set; }
+        [DataMember]  public double LowLimit { get; set; }
+        [DataMember]  public double HighLimit { get; set; }
+        [DataMember]  public string Units { get; set; }
     }
 }

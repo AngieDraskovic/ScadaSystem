@@ -27,12 +27,27 @@ namespace WCF_Scada
         }
 
         public bool AddTag(Tag tag, string token) {
+            if (UserProcessing.IsAuthenticatedUser(token))
+            {
+                return TagProcessing.AddTag(tag);
+            }
             return false;
         }
+
+        public bool RemoveTag(string tagName, string token)
+        {
+            if (UserProcessing.IsAuthenticatedUser(token))
+                return TagProcessing.RemoveTag(tagName);
+            return false;
+        }
+
 
         public void LogOut(string token)
         {
             UserProcessing.LogOut(token);
         }
+
+
+      
     }
 }

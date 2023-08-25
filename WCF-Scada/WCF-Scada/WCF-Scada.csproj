@@ -81,13 +81,17 @@
       <DependentUpon>DBManagerService.svc</DependentUpon>
     </Compile>
     <Compile Include="IDBManagerService.cs" />
-    <Compile Include="Migrations\202308181849530_InitialCreate.cs" />
-    <Compile Include="Migrations\202308181849530_InitialCreate.designer.cs">
-      <DependentUpon>202308181849530_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\202308251904121_InitialCreate.cs" />
+    <Compile Include="Migrations\202308251904121_InitialCreate.designer.cs">
+      <DependentUpon>202308251904121_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202308181910193_MigrationName.cs" />
-    <Compile Include="Migrations\202308181910193_MigrationName.designer.cs">
-      <DependentUpon>202308181910193_MigrationName.cs</DependentUpon>
+    <Compile Include="Migrations\202308252004089_NewestTry.cs" />
+    <Compile Include="Migrations\202308252004089_NewestTry.designer.cs">
+      <DependentUpon>202308252004089_NewestTry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308252350032_AddUniqueConstraintToIOAddress.cs" />
+    <Compile Include="Migrations\202308252350032_AddUniqueConstraintToIOAddress.designer.cs">
+      <DependentUpon>202308252350032_AddUniqueConstraintToIOAddress.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="models\Alarm.cs" />
@@ -95,7 +99,9 @@
     <Compile Include="models\AnalogOutputTag.cs" />
     <Compile Include="models\DigitalInputTag.cs" />
     <Compile Include="models\DigitalOutputTag.cs" />
-    <Compile Include="models\Driver.cs" />
+    <Compile Include="models\Drivers\Driver.cs" />
+    <Compile Include="models\Drivers\RealTimeDriver.cs" />
+    <Compile Include="models\Drivers\SimulationDriver.cs" />
     <Compile Include="models\Tag.cs" />
     <Compile Include="models\User.cs" />
     <Compile Include="Processing\TagProcessing.cs" />
@@ -115,11 +121,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202308181849530_InitialCreate.resx">
-      <DependentUpon>202308181849530_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202308251904121_InitialCreate.resx">
+      <DependentUpon>202308251904121_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202308181910193_MigrationName.resx">
-      <DependentUpon>202308181910193_MigrationName.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202308252004089_NewestTry.resx">
+      <DependentUpon>202308252004089_NewestTry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308252350032_AddUniqueConstraintToIOAddress.resx">
+      <DependentUpon>202308252350032_AddUniqueConstraintToIOAddress.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
