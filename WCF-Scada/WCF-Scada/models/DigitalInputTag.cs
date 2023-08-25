@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Web;
 
 namespace WCF_Scada.models
 {
-    public class DigitalInputTag : Tag
+    [DataContract]
+    public class DigitalInputTag : InputTag
     {
-        public Driver Driver { get; set; }
-        public int ScanTime { get; set; }
-        public bool OnScan { get; set; }
+
     }
 }
