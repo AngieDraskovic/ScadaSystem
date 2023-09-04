@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTag xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Tag xsi:type="AnalogInputTag">
+    <TagName>TURBINA1</TagName>
+    <Description>Brzina prve turbine</Description>
+    <IoAddress>1</IoAddress>
+    <Driver>REAL_TIME_DRIVER</Driver>
+    <ScanTime>1</ScanTime>
+    <ScanOn>true</ScanOn>
+    <LowLimit>1</LowLimit>
+    <HighLimit>5</HighLimit>
+    <Unit>km/h</Unit>
+    <Alarms>
+      <Alarm>
+        <AlarmType>HIGH</AlarmType>
+        <Priority>3</Priority>
+        <TagName>TURBINA1</TagName>
+        <AlarmId>0</AlarmId>
+      </Alarm>
+    </Alarms>
+  </Tag>
+</ArrayOfTag>

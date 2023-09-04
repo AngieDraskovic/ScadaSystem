@@ -1,0 +1,14 @@
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\RealTimeUnitApp\bin\Debug\RealTimeUnitApp.exe.config
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\RealTimeUnitApp\bin\Debug\RealTimeUnitApp.exe
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\RealTimeUnitApp\bin\Debug\RealTimeUnitApp.pdb
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\RealTimeUnitApp\obj\Debug\RealTimeUnitApp.csprojAssemblyReference.cache
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\RealTimeUnitApp\obj\Debug\RealTimeUnitApp.csproj.CoreCompileInputs.cache
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\RealTimeUnitApp\obj\Debug\RealTimeUnitApp.exe
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\RealTimeUnitApp\obj\Debug\RealTimeUnitApp.pdb
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\RealTimeUnitApp\bin\Debug\RealTimeUnitApp.exe.config
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\RealTimeUnitApp\bin\Debug\RealTimeUnitApp.exe
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\RealTimeUnitApp\bin\Debug\RealTimeUnitApp.pdb
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\RealTimeUnitApp\obj\Debug\RealTimeUnitApp.csproj.AssemblyReference.cache
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\RealTimeUnitApp\obj\Debug\RealTimeUnitApp.csproj.CoreCompileInputs.cache
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\RealTimeUnitApp\obj\Debug\RealTimeUnitApp.exe
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\RealTimeUnitApp\obj\Debug\RealTimeUnitApp.pdb

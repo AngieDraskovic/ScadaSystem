@@ -1,0 +1,14 @@
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.exe.config
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.exe
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.pdb
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.csproj.CoreCompileInputs.cache
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.exe
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.pdb
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.csprojAssemblyReference.cache
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.exe.config
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.exe
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\TrendingConsoleApp\bin\Debug\TrendingConsoleApp.pdb
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.csproj.AssemblyReference.cache
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.exe
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\TrendingConsoleApp\obj\Debug\TrendingConsoleApp.pdb

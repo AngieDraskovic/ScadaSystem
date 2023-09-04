@@ -1,0 +1,14 @@
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\AlarmDisplayApp\bin\Debug\AlarmDisplayApp.exe.config
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\AlarmDisplayApp\bin\Debug\AlarmDisplayApp.exe
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\AlarmDisplayApp\bin\Debug\AlarmDisplayApp.pdb
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\AlarmDisplayApp\obj\Debug\AlarmDisplayApp.csprojAssemblyReference.cache
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\AlarmDisplayApp\obj\Debug\AlarmDisplayApp.csproj.CoreCompileInputs.cache
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\AlarmDisplayApp\obj\Debug\AlarmDisplayApp.exe
+C:\Moj\Fakultet\LukaFTN\SNUS\Projekat\Projekat\AlarmDisplayApp\obj\Debug\AlarmDisplayApp.pdb
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\AlarmDisplayApp\bin\Debug\AlarmDisplayApp.exe.config
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\AlarmDisplayApp\bin\Debug\AlarmDisplayApp.exe
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\AlarmDisplayApp\bin\Debug\AlarmDisplayApp.pdb
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\AlarmDisplayApp\obj\Debug\AlarmDisplayApp.csproj.AssemblyReference.cache
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\AlarmDisplayApp\obj\Debug\AlarmDisplayApp.csproj.CoreCompileInputs.cache
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\AlarmDisplayApp\obj\Debug\AlarmDisplayApp.exe
+C:\Users\lukjo\OneDrive\Desktop\test\SW-32-2018\AlarmDisplayApp\obj\Debug\AlarmDisplayApp.pdb

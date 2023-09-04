@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ae3b2879-77d4-424a-8e0a-6b11e8808c23" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50929/TrendingConsoleAppService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TrendingConsoleAppService.disco" MetadataType="Disco" ID="40670bc9-2ebd-404d-84d4-791353f31aa9" SourceId="1" SourceUrl="http://localhost:50929/TrendingConsoleAppService.svc?disco" />
+    <MetadataFile FileName="TrendingConsoleAppService.wsdl" MetadataType="Wsdl" ID="f2715bd7-36e1-4133-81d1-1c9470ce92fb" SourceId="1" SourceUrl="http://localhost:50929/TrendingConsoleAppService.svc?wsdl" />
+    <MetadataFile FileName="TrendingConsoleAppService1.xsd" MetadataType="Schema" ID="fa927b23-761e-4fb4-b81a-b4c1e7eb4eca" SourceId="1" SourceUrl="http://localhost:50929/TrendingConsoleAppService.svc?xsd=xsd0" />
+    <MetadataFile FileName="TrendingConsoleAppService2.xsd" MetadataType="Schema" ID="129fdc68-b937-4a22-be6b-a1dfb369f767" SourceId="1" SourceUrl="http://localhost:50929/TrendingConsoleAppService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TrendingConsoleAppService3.xsd" MetadataType="Schema" ID="a62812f5-4b35-4e6d-8bbe-f96849295715" SourceId="1" SourceUrl="http://localhost:50929/TrendingConsoleAppService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TrendingConsoleAppService4.xsd" MetadataType="Schema" ID="05736fcd-66dc-48f9-8d81-db39f999f684" SourceId="1" SourceUrl="http://localhost:50929/TrendingConsoleAppService.svc?xsd=xsd3" />
+    <MetadataFile FileName="TrendingConsoleAppService.xsd" MetadataType="Schema" ID="183302db-5fa9-45ac-9ead-3ad369b211ea" SourceId="1" SourceUrl="http://localhost:50929/TrendingConsoleAppService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

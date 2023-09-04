@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tvaDK24uJ+ltJQQJTgW7birQ2+yJAZoj95JySbOKl1OodUiJ0Yq6XmzBcne7lOalBWtH93SLWlUihNwvErw7vA==",
+  "success": true,
+  "projectFilePath": "C:\\Moj\\Fakultet\\LukaFTN\\SNUS\\Projekat\\Projekat\\SimulationDriverLibrary\\SimulationDriver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mpele\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mpele\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

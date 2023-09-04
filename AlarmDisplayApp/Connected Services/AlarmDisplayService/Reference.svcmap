@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="51cf8077-7224-4a6e-8e0e-97b1a929a9df" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50929/AlarmDisplayService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AlarmDisplayService1.xsd" MetadataType="Schema" ID="c38bc961-5c28-4543-acd0-1389818534d2" SourceId="1" SourceUrl="http://localhost:50929/AlarmDisplayService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AlarmDisplayService.wsdl" MetadataType="Wsdl" ID="d4362d14-f29f-40b5-ade9-2585185673cc" SourceId="1" SourceUrl="http://localhost:50929/AlarmDisplayService.svc?wsdl" />
+    <MetadataFile FileName="AlarmDisplayService2.xsd" MetadataType="Schema" ID="8bd9fd9c-8047-4f6a-ba38-2911b4dba735" SourceId="1" SourceUrl="http://localhost:50929/AlarmDisplayService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AlarmDisplayService.disco" MetadataType="Disco" ID="5a3c808b-ee7f-4394-b235-4bc273b855c9" SourceId="1" SourceUrl="http://localhost:50929/AlarmDisplayService.svc?disco" />
+    <MetadataFile FileName="AlarmDisplayService3.xsd" MetadataType="Schema" ID="950fd666-723c-41ac-8ea0-3a4303bba0ca" SourceId="1" SourceUrl="http://localhost:50929/AlarmDisplayService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AlarmDisplayService.xsd" MetadataType="Schema" ID="3ac63b4c-7435-4236-bf69-eef062d80f38" SourceId="1" SourceUrl="http://localhost:50929/AlarmDisplayService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

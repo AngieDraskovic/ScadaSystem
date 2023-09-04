@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SCADACore.Database.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SCADACore.Database.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50929/ReportManagerService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/SCADACore.Tags.InputTags" />
+  <xs:complexType name="ArrayOfAlarmTime">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AlarmTime" nillable="true" type="tns:AlarmTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAlarmTime" nillable="true" type="tns:ArrayOfAlarmTime" />
+  <xs:complexType name="AlarmTime">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/SCADACore.Tags.InputTags" minOccurs="0" name="AlarmType" type="q1:AlarmType" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Limit" type="xs:double" />
+      <xs:element minOccurs="0" name="Priority" type="xs:int" />
+      <xs:element minOccurs="0" name="TagName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeStamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AlarmTime" nillable="true" type="tns:AlarmTime" />
+  <xs:complexType name="ArrayOfTagValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TagValue" nillable="true" type="tns:TagValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTagValue" nillable="true" type="tns:ArrayOfTagValue" />
+  <xs:complexType name="TagValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="TagName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeStamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TagValue" nillable="true" type="tns:TagValue" />
+</xs:schema>
